@@ -322,9 +322,6 @@ img {
 /* Skills */
 .skills-content {
   grid-template-columns: repeat(2, 1fr);
-}
-
-.skills-content {
   gap: 0;
 }
 
@@ -335,6 +332,73 @@ img {
 }
 
 .skills-circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+/* Projects */
+.projects-content {
+  display: flex;
+}
+
+.projects-time {
+  padding-right: 1rem;
+}
+
+.projects-rounder {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: var(--text-color-light);
+  border-radius: 50%;
+  margin-top: 0.25rem;
+}
+
+.projects-line {
+  display: block;
+  width: 2px;
+  height: 110%;
+  background-color: var(--text-color-light);
+  transform: translate(7px, 0);
+}
+
+.projects-data {
+  gap: 0.5rem;
+}
+
+.projects-title {
+  font-size: var(--h3-font-size);
+}
+
+.projects-desc {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
+
+.projects-list,
+.projects-list > a,
+.projects-list > .projects-link {
+  font-size: var(--smaller-font-size);
+}
+
+.projects-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.projects-link:hover {
+  color: var(--title-color);
+  transition: 0.3s;
+}
+
+.projects-circle {
   display: inline-block;
   width: 5px;
   height: 5px;
