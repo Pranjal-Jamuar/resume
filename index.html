@@ -62,6 +62,51 @@
       </nav>
     </header>
 
-    <main class="l-main bd-container"></main>
+    <main class="l-main bd-container">
+      <!-- All the elements inside this div will be exported as pdf -->
+      <div class="resume">
+        <div class="resume-left">
+          <!-- Home -->
+          <section class="home" id="home">
+            <div class="home-container section bd-grid">
+              <div class="home-data bd-grid">
+                <img
+                  src="/assets/img/profile-picture.png"
+                  alt="Profile Picture"
+                  class="home-img"
+                />
+
+                <h1 class="home-title">PRANJAL <b>JAMUAR</b></h1>
+                <h3 class="home-profession">Front-End Developer</h3>
+                <!-- Button to download CV for the mobile users, saved in the pdf folder  -->
+                <div>
+                  <a
+                    download=""
+                    href="/assets/pdf/resumeCv.pdf"
+                    class="home-button-mobile"
+                    >Download</a
+                  >
+                </div>
+              </div>
+              <div class="home-address bd-grid">
+                <span class="home-info">
+                  <i class="bx bx-map home-icon"></i>Forest Colony, Opposite DVC
+                  Dispensary, Hazaribagh, Jharkhand, India - 825301
+                </span>
+                <span class="home-info">
+                  <i class="bx bx-envelope home-icon"></i>
+                  pranjal.jamuar@gmail.com
+                </span>
+                <span class="home-info">
+                  <i class="bx bx-phone home-icon"></i> +91-9570389048
+                </span>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume-right"></div>
+      </div>
+    </main>
   </body>
 </html>
