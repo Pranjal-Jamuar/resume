@@ -184,6 +184,7 @@ img {
   color: var(--title-color);
 }
 
+/* Home */
 .home {
   position: relative;
 }
@@ -243,4 +244,27 @@ img {
 .home-button-mobile:hover {
   background-color: var(--text-color);
   color: var(--container-color);
+}
+
+/* Social */
+.social-container {
+  grid-template-columns: max-content;
+  gap: 1rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.social-link:hover {
+  color: var(--title-color);
+  transition: 0.3s;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+  margin-right: 0.25rem;
 }
