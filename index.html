@@ -64,7 +64,7 @@
 
     <main class="l-main bd-container">
       <!-- All the elements inside this div will be exported as pdf -->
-      <div class="resume">
+      <div class="resume" id="area-cv">
         <div class="resume-left">
           <!-- Home -->
           <section class="home" id="home">
@@ -143,13 +143,11 @@
             <h2 class="section-title">Profile</h2>
 
             <p class="profile-desc">
-              Aspiring and dedicated Front End Developer with a BTech in CSE
-              degree, specializing in web development. Proficient in HTML, CSS,
-              JavaScript, and React, with expertise in integrating 3rd-party
-              APIs. Developed hands-on projects while acquiring skills,
-              dedicated to simplifying, enhancing accessibility, and improving
-              interpretability of websites. Eager to leverage knowledge and
-              passion for learning new technologies in an entry-level role.
+              Passionate Front End Developer with a BTech in CSE. Skilled in
+              HTML, CSS, JavaScript, React, and API integration. Committed to
+              enhancing website accessibility and interpretability. Eager to
+              apply expertise in an entry-level role and keen on learning new
+              technologies.
             </p>
           </section>
           <!-- Education -->
@@ -157,7 +155,7 @@
             <h2 class="section-title">Education</h2>
 
             <div class="education-container bd-grid">
-              <div class="education-content">
+              <!-- <div class="education-content">
                 <div class="education-time">
                   <span class="education-rounder"></span>
                   <div class="education-line"></div>
@@ -165,20 +163,15 @@
 
                 <div class="education-data bd-grid">
                   <h3 class="education-title">
-                    All India Senior School Certificate Examination - CBSE
-                    XII<sup>th</sup>
-                    Boards
+                    All India Senior School Certificate Examination
                   </h3>
                   <span class="education-studies"
-                    >Saint Xavier's School - Jharkhand, India</span
+                    >St. Xavier's School - Jharkhand, India</span
                   >
                   <span class="education-year">2015 - 2017</span>
-                  <span class="education-grade"
-                    >84.8% with subjects Physics, Chemistry and
-                    Mathematics</span
-                  >
+                  <span class="education-grade">84.8%</span>
                 </div>
-              </div>
+              </div> -->
               <div class="education-content">
                 <div class="education-time">
                   <span class="education-rounder"></span>
@@ -187,16 +180,15 @@
 
                 <div class="education-data bd-grid">
                   <h3 class="education-title">
-                    Bachelor of Technology in Computer Science and Engineering
+                    B.Tech - Computer Science and Engineering
                   </h3>
                   <span class="education-studies"
                     >Lovely Professional University - Punjab, India</span
                   >
                   <span class="education-year">09/2018 – 08/2022</span>
                   <span class="education-grade"
-                    >81% with specialisation in Web Development minor with
-                    HTML(A+), CSS(A+), JAVASCRIPT(A+),PHP (A+), LARAVEL(A+),
-                    NODE JS(A+)</span
+                    >81% (8.1 CGPA) with specialisation in Web Development
+                    minor</span
                   >
                 </div>
               </div>
@@ -461,10 +453,10 @@
                     ><i class="bx bx-link-external certificate-icon"></i
                   ></a>
                 </h3>
-                <p class="certificate-desc">
+                <!-- <p class="certificate-desc">
                   A detailed bootcamp for HTML, CSS and JS with 14 Projects
                   going from basic to advanced.
-                </p>
+                </p> -->
               </div>
               <div class="certificate-content">
                 <h3 class="certificate-title">
@@ -476,10 +468,10 @@
                     ><i class="bx bx-link-external certificate-icon"></i
                   ></a>
                 </h3>
-                <p class="certificate-desc">
+                <!-- <p class="certificate-desc">
                   A basic centric Full Stack Training for beginners in Web
                   Development.
-                </p>
+                </p> -->
               </div>
               <div class="certificate-content">
                 <h3 class="certificate-title">
@@ -490,12 +482,12 @@
                     ><i class="bx bx-link-external certificate-icon"></i
                   ></a>
                 </h3>
-                <p class="certificate-desc">
+                <!-- <p class="certificate-desc">
                   A self-paced course for Data Structures & Algorithms which
                   focuses on Problem Solving.
-                </p>
+                </p> -->
               </div>
-              <div class="certificate-content">
+              <!-- <div class="certificate-content">
                 <h3 class="certificate-title">
                   Responsive Website Design by FreeCodeCamp.
                   <a
@@ -508,8 +500,8 @@
                   A self-paced course for learing Responsive Web Design by
                   FreeCodeCamp.
                 </p>
-              </div>
-              <div class="certificate-content">
+              </div> -->
+              <!-- <div class="certificate-content">
                 <h3 class="certificate-title">
                   JavaScript Algorithms & Data Structures Developer
                   Certification by FreeCodeCamp.
@@ -523,7 +515,7 @@
                   A problem solving focused Algorithms & Data Structures course
                   in JavaScript.
                 </p>
-              </div>
+              </div> -->
             </div>
           </section>
           <!-- Languages -->
@@ -575,5 +567,7 @@
     <a href="#" class="scroll-top" id="scroll-top">
       <i class="bx bxs-up-arrow-alt scroll-top-icon"></i>
     </a>
+
+    <script src="/assets/js/html2pdf.bundle.min.js"></script>
   </body>
 </html>

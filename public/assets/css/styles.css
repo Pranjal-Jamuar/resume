@@ -324,7 +324,7 @@ img {
 }
 
 .home-container {
-  gap: 3rem;
+  gap: 1.5rem;
 }
 
 .home-data {
@@ -543,7 +543,7 @@ img {
 /* Certifications */
 .certificate-title {
   font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-1);
+  /* margin-bottom: var(--mb-1); */
 }
 
 .certificate-icon {

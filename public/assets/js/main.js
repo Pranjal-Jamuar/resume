@@ -87,4 +87,37 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon())
 })
 
-/*==================== DARK LIGHT THEME ====================*/
+/*==================== REDUCE THE SIZE AND PRINT THE A4 SHEET ====================*/
+
+const scaleCv = () => {
+  document.body.classList.add("scale-cv")
+}
+
+/*==================== REMOVE THE SIZE WHEN CV IS DOWNLOADED ====================*/
+
+const removeScale = () => {
+  document.body.classList.remove("scale-cv")
+}
+
+/*==================== GENERATE PDF ====================*/
+let areaCv = document.getElementById("area-cv")
+
+let resumeButton = document.getElementById("resume-button")
+
+let opt = {
+  margin: 0,
+  filename: "myResume.pdf",
+  image: { type: "jpeg", quality: 0.98 },
+  html2canvas: { scale: 4 },
+  jsPDF: { format: "a4", orientation: "portrait" },
+}
+
+const generateResume = () => {
+  html2pdf(areaCv, opt)
+}
+
+resumeButton.addEventListener("click", () => {
+  scaleCv()
+  generateResume()
+  setTimeout(removeScale, 5000)
+})
