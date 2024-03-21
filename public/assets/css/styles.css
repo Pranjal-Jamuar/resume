@@ -64,6 +64,16 @@ body.dark-theme {
   color: var(--title-color);
 }
 
+/* Font size variables to scale cv */
+body.scale-cv {
+  --h1-font-size: 0.938rem;
+  --h2-font-size: 0.938rem;
+  --h3-font-size: 0.875rem;
+  --normal-font-size: 0.813rem;
+  --small-font-size: 0.75rem;
+  --smaller-font-size: 0.688rem;
+}
+
 /* Generate PDF button */
 .generate-pdf {
   position: absolute;
@@ -77,6 +87,91 @@ body.dark-theme {
 
 .generate-pdf:hover {
   color: var(--title-color);
+}
+
+/* Classes modified to reduce size and print on A4 sheet */
+.scale-cv .change-theme,
+.scale-cv .generate-pdf {
+  display: none;
+}
+
+.scale-cv .bd-container {
+  max-width: 595px;
+}
+
+.scale-cv .section {
+  padding: 1.5rem 0 0.8rem;
+}
+
+.scale-cv .section-title {
+  margin-bottom: 0.75rem;
+}
+
+.scale-cv .resume-left,
+.scale-cv .resume-right {
+  padding: 0 1rem;
+}
+
+.scale-cv .home-img {
+  width: 90px;
+  height: 90px;
+}
+
+.scale-cv .home-container {
+  gap: 1.5rem;
+}
+
+.scale-cv .home-data {
+  gap: 0.25rem;
+}
+
+.scale-cv .home-address,
+.scale-cv .social-container {
+  gap: 0.75rem;
+}
+
+.scale-cv .home-icon,
+.scale-cv .social-icon,
+.scale-cv .interests-icon {
+  font-size: 1rem;
+}
+
+.scale-cv .education-containter,
+.scale-cv .projects-container,
+.scale-cv .certificate-container {
+  gap: 1rem;
+}
+
+.scale-cv .education-time,
+.scale-cv .projects-time {
+  padding-right: 0.5rem;
+}
+
+.scale-cv .education-rounder,
+.scale-cv .projects-rounder {
+  width: 11px;
+  height: 11px;
+  margin-top: 0.22rem;
+}
+
+.scale-cv .education-line,
+.scale-cv .projects-line {
+  width: 1px;
+  height: 110%;
+  transform: translate(5px, 0);
+}
+
+.scale-cv .education-data,
+.scale-cv .projects-data {
+  gap: 0.25rem;
+}
+
+.scale-cv .skills-name {
+  margin-bottom: var(--mb-1);
+}
+
+.scale-cv .interests-container {
+  column-gap: 2.5rem;
 }
 
 body {
