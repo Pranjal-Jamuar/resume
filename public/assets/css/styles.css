@@ -406,3 +406,42 @@ img {
   border-radius: 50%;
   margin-right: 0.75rem;
 }
+
+/* Certifications */
+.certificate-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.certificate-icon {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.certificate-icon:hover {
+  color: var(--title-color);
+  transition: 0.3s;
+}
+
+/* Languages */
+.languages-content {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.languages-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-3);
+}
+
+.languages-circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
