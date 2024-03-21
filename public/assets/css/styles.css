@@ -64,6 +64,21 @@ body.dark-theme {
   color: var(--title-color);
 }
 
+/* Generate PDF button */
+.generate-pdf {
+  position: absolute;
+  display: none;
+  top: 2.2rem;
+  left: 0;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.generate-pdf:hover {
+  color: var(--title-color);
+}
+
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
@@ -550,6 +565,10 @@ img {
   .resume-left,
   .resume-right {
     padding: 0 1.5rem;
+  }
+
+  .generate-pdf {
+    display: inline-block;
   }
 
   .section-title,
