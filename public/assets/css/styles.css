@@ -322,7 +322,6 @@ img {
 /* Skills */
 .skills-content {
   grid-template-columns: repeat(2, 1fr);
-  gap: 0;
 }
 
 .skills-name {
@@ -444,4 +443,22 @@ img {
   background-color: var(--text-color);
   border-radius: 50%;
   margin-right: 0.75rem;
+}
+
+/* Interests */
+.interests-container {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: var(--mb-2);
+}
+
+.interests-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interests-icon {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+  margin-bottom: 0.25rem;
 }
