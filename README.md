@@ -20,9 +20,7 @@ Welcome to my resume website repository! This project aims to provide an interac
 
 ## Live Demo
 
-<!-- [Pranjal Jamuar's Resume](https://pranjaljamuar-resume.netlify.app/){:target="\_blank"} -->
-
-<a href="https://pranjaljamuar-resume.netlify.app/" target="_blank">Pranjal Jamuar's Resume</a>
+[Pranjal Jamuar's Resume](https://pranjaljamuar-resume.netlify.app/)
 
 ## Uniqueness
 
